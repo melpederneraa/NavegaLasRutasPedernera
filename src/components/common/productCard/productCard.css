@@ -1,0 +1,55 @@
+.card {
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  border: 1px solid #eee;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  transition: all 0.2s ease;
+}
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 18px rgba(0,0,0,0.1);
+}
+
+.card-title {
+  font-size: 18px;
+  margin: 0 0 8px;
+}
+.card-price {
+  color: #0f766e;
+  font-weight: bold;
+  margin: 0 0 8px;
+}
+.card-desc {
+  font-size: 14px;
+  color: #555;
+  flex: 1;
+}
+
+.card-actions {
+  display: flex;
+  gap: 8px;
+  margin-top: auto;
+}
+
+.btn {
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  background: black;
+  color: white;
+}
+.btn-outline {
+  background: transparent;
+  border: 1px solid #111827;
+  color: #111827;
+}
+.btn-outline:hover {
+  background:#f1e90d ;
+  color: black;
+}
+
